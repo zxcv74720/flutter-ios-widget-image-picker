@@ -9,11 +9,8 @@
 - 선택한 이미지를 iOS 위젯의 배경으로 설정
 - 현재 위젯 이미지 표시
 
-<div style="text-align: center;">
-    <img src="/readme_asset/clip_1.gif" alt="Clip 1" style="margin: 0 10px;">
-    <img src="/readme_asset/clip_2.gif" alt="Clip 2" style="margin: 0 10px;">
-    <img src="/readme_asset/clip_3.gif" alt="Clip 3" style="margin: 0 10px;">
-</div>
+| ![image1](/readme_asset/clip_1.gif) | ![image2](/readme_asset/clip_2.gif) | ![image3](/readme_asset/clip_3.gif) |
+| --- | --- | --- |
 
 
 ## 사용 라이브러리 (Flutter)
@@ -42,8 +39,5 @@ Cycle details:
 
 - 해결 방법: Flutter 프로젝트의 iOS 폴더에서 Xcode를 실행하여 `Runner > Build Phases` 로 넘어가 Embed Foundation Extensions의 순서를 Embed Frameworks 위로 옮겨주면 해결된다.
 
-<div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/readme_asset/error_resolution_1.png" alt="Error Resolution 1" style="margin-bottom: 10px;">
-    <img src="/readme_asset/error_resolution_2.png" alt="Error Resolution 2" style="margin-bottom: 10px;">
-</div>
-햐
+![image4](/readme_asset/error_resolution_1.png)
+![image5](/readme_asset/error_resolution_2.png)
